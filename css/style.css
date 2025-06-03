@@ -70,7 +70,7 @@ html {
   align-items: center;
 }
 .card-section .individual-card {
-  padding: 2em;
+  padding: 2em 1.5em;
   border-radius: 5px;
   width: 75%;
   background-color: white;
