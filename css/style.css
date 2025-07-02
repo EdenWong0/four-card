@@ -2,6 +2,7 @@
   --primary-text-color: hsl(234, 12%, 34%);
   --secondary-text-color: hsl(212, 6%, 44%);
   --white: hsl(0, 0%, 100%);
+  --grey-400: hsl(212, 6%, 44%);
 
   /*Card*/
   --red: hsl(0, 78%, 62%);
@@ -9,7 +10,7 @@
   --orange: hsl(34, 97%, 64%);
   --blue: hsl(212, 86%, 64%);
 
-  --body-font: "Poppins", sans-serif;
+  --body-font: "Poppins", Arial, sans-serif;
 }
 
 * {
@@ -31,6 +32,7 @@ html {
 
 .container {
   padding: 2em;
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
 }
 
 .section-header {
@@ -78,27 +80,27 @@ html {
 }
 
 .individual-card.supervisor {
-  box-shadow: 0px -4px 0px 0px var(--cyan), 0 5px 15px rgba(157, 223, 245, 0.5);
+  box-shadow: 0px -4px 0px 0px var(--cyan), 0 3px 15px rgba(150, 158, 160, 0.5);
   grid-column: 1;
   grid-row: 1 / span 2;
   align-self: center;
 }
 
 .individual-card.team-builder {
-  box-shadow: 0px -4px 0px 0px var(--red), 0 5px 15px rgba(157, 223, 245, 0.5);
+  box-shadow: 0px -4px 0px 0px var(--red), 0 3px 15px rgba(150, 158, 160, 0.5);
   grid-column: 2;
   grid-row: 1;
 }
 
 .individual-card.karma {
   box-shadow: 0px -4px 0px 0px var(--orange),
-    0 5px 15px rgba(157, 223, 245, 0.5);
+    0 3px 15px rgba(150, 158, 160, 0.5);
   grid-column: 2;
   grid-row: 2;
 }
 
 .individual-card.calculator {
-  box-shadow: 0px -4px 0px 0px var(--blue), 0 5px 15px rgba(157, 223, 245, 0.5);
+  box-shadow: 0px -4px 0px 0px var(--blue), 0 3px 15px rgba(150, 158, 160, 0.5);
   grid-column: 3;
   grid-row: 1 / span 2;
   align-self: center;
